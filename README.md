@@ -1,6 +1,6 @@
-# Cookiecutter Django by Yuma
+# Cookiecutter Design System by Yuma
 
-A custom implementation of Cookiecutter Django for building Django GraphQL API projects quickly.
+An implementation of Cookiecutter to create quickly a design system based on Blockx.
 
 ## License
 

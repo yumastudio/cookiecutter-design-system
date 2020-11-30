@@ -1,5 +1,5 @@
 {
-  "name": "@{{ cookiecutter.npm_slug }}/design-system-icons",
+  "name": "@{{ cookiecutter.npm_user }}/design-system-icons",
   "version": "0.0.1",
   "scripts": {
     "build:svgs": "node_modules/@yumastudio/blockx-icons/scripts/svgs.js --input icons/**/*.svg --output src/__generated__/data.json",
