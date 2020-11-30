@@ -1,0 +1,8 @@
+{
+  "extends": "@yumastudio/blockx-react/tsconfig.json",
+  "include": [
+    "**/*.tsx",
+    "typings/**/*"
+  ],
+  "exclude": ["node_modules"]
+}

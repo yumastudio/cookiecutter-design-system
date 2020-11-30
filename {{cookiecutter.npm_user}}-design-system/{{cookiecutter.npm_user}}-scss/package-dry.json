@@ -1,0 +1,9 @@
+{
+  "name": "@{{ cookiecutter.npm_user }}/design-system-scss",
+  "dry": {
+    "extends": "@yumastudio/blockx-scss/package-dry.json",
+    "dependencies": {
+      "@yumastudio/blockx-scss": "1.0.0"
+    }
+  }
+}

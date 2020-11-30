@@ -1,0 +1,16 @@
+{
+  "name": "@{{ cookiecutter.npm_user }}/design-system-react",
+  "version": "0.0.1",
+  "dependencies": {
+    "@{{ cookiecutter.npm_user }}/design-system-scss": "^0.2.2"
+  },
+  "peerDependencies": {
+    "@{{ cookiecutter.npm_user }}/design-system-scss": "^0.2.2"
+  },
+  "dry": {
+    "extends": "@yumastudio/blockx-react/package-dry.json",
+    "dependencies": {
+      "@yumastudio/blockx-react": "1.0.0"
+    }
+  }
+}

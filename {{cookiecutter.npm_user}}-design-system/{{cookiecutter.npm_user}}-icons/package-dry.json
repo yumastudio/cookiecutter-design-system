@@ -1,0 +1,14 @@
+{
+  "name": "@{{ cookiecutter.npm_slug }}/design-system-icons",
+  "version": "0.0.1",
+  "scripts": {
+    "build:svgs": "node_modules/@yumastudio/blockx-icons/scripts/svgs.js --input icons/**/*.svg --output src/__generated__/data.json",
+    "build:react": "node_modules/@yumastudio/blockx-icons/scripts/react.js --input src/__generated__ --output=dist"
+  },
+  "dry": {
+    "extends": "@yumastudio/blockx-icons/package-dry.json",
+    "dependencies": {
+      "@yumastudio/blockx-icons": "1.0.0"
+    }
+  }
+}
